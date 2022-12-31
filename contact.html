@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "montserrat",sans-serif;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url('images/cus.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        min-height: 100vh;
+        color: white;
+    }
+    .contact-info{
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 30px;
+    }
+    .card{
+        background: orange;
+        padding: 0 20px;
+        margin: 0 10px;
+        width: 500px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-icon{
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        border-radius: 50%;
+        transition: 0.3s linear;
+    }
+    .card:hover .card-icon{
+        background: none;
+        color: black;
+        transform: scale(1.6);
+    }
+    .card p{
+        margin-top: 20px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        max-height: 0;
+        opacity: 0;
+        transition: 0.3s linear;
+
+    }
+    .card:hover p{
+        max-height: 40px;
+        opacity: 1;
+    }
+    .title{
+        display: inline-block;
+        position: absolute;
+        border: 0px solid ;
+        top: 15%;
+        right: 41%;
+        width: 20%;
+        text-align: center;
+        justify-content: center;
+    }
+    .title p{
+        font-size: 50px;
+        text-decoration: underline;
+        color: black;
+    }
+    .cent{
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        background-color: black;
+        border: px solid ;
+        top: 0%;
+        margin: 0px auto;
+        padding: 17px;
+    }
+    .mbar{
+        display: inline-block;
+    }
+    .mbar li{
+        display: inline-block;
+        font-size: 16px;
+    }
+    .mbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px 23px;
+    }
+    .mbar li a:hover{
+        text-decoration: underline;
+        color: gray;
+    }
+    .rit{
+        display: inline-block;
+        position: absolute;
+        border: 0px solid;
+        top: 1%;
+        right: 4%;
+        padding: 3px;
+        text-align: center;
+        justify-content: center;
+    }
+    .rit p{
+        color: goldenrod;
+        font-style: italic;
+        font-size: 25px;
+    }
+
+</style>
+
+<body>
+    <div class="cent">
+        <ul class="mbar">
+            <li><a href="struct.html">Home</a></li>
+            <li><a href="atus.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="title">
+        <p>Contact Us</p>
+    </div>
+    <div class="rit">
+        <p>The Bawarchis'</p>
+    </div>
+    <div class="contact-info">
+        <div class="card">
+            <i class="card-icon far fa-envelope"></i>
+            <p>email@thebawarchis'.com</p>
+        </div>
+        <div class="card">
+            <i class="card-icon fas fa-phone"></i>
+            <p>+916395980086</p>
+        </div>
+        <div class="card">
+            <i class="card-icon fas fa-map-marker-alt"></i>
+            <p>Amritsar,India</p>
+        </div>
+    </div>
+    
+</body>
+</html>

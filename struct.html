@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bawarchis'</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('images/f4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat
+        
+
+    }
+    .left1{
+        display: inline-block;
+        border: 0px solid;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .left1 img{
+        height: 170px;
+        width: 220px;
+    }
+    .mid{
+        display: inline-block;
+        position: absolute;
+        width: 85.2%;
+        margin: 0px auto;
+        border: 0px solid;
+        background-color: black;
+        right: 0px;
+
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        border: 0px solid;
+        top: 50px;
+        right: 3px;
+        height: 80%;
+        width: 16%;
+        text-align: center;
+    }
+    .right p{
+        font-size: 50px;
+        text-align: center;
+        color: goldenrod;
+
+
+    }
+    .discount{
+        display: inline-block;
+        position: absolute;
+        border: 4px solid darkgray;
+        top: 30%;
+        left: 4px;
+        height: 55%;
+        width: 10%;
+        text-align: center;
+        justify-content: center;
+        background-color: black;
+    }
+    .discount p{
+        font-size: 26px;
+        text-align: center;
+        color: white;
+        justify-content: center;
+    }
+    .discount img{
+        height: 170px;
+        width: 140px;
+        justify-content: center;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 16px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 20px 23px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: gray;
+    }
+    .bottm1{
+        display: inline-block;
+        position: absolute;
+        border: 0px solid;
+        background-color: black;
+        width: 15%;
+        bottom: 0px;
+        left: 0px;
+        height: 8%;
+        margin: 0px auto;
+    }
+    .sobar{
+        display: inline-block;
+    }
+    .sobar li{
+        display: inline-block;
+    }
+    .sobar li a img{
+        padding: 0px 13px;
+        width: 28px;
+        margin: 0px auto;
+    }
+    .feed{
+        display: inline-block;
+        position: absolute;
+        border: 0px solid;
+        width: 9%;
+        right: 0%;
+        bottom: 0px;
+        height: 8%;
+        /*margin: 0px auto;*/
+    }
+    .btn{
+        background-color: black;
+        color: white;
+        border: 2px solid grey;
+        border-radius: 0px;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .search{
+        display: inline-block;
+        position: absolute;
+        width: 3%;
+        border: 0px solid;
+        right: 13%;
+        top: 9px;
+        margin: 0px auto;
+    }
+    .search input[type=text]{
+        padding: 6px;
+        font-size: 17px;
+        right: 0%;
+        background-color: black;
+        color: white;
+        border: 2px solid grey;
+        margin-right: 16px;
+        border-radius: 7px;
+
+    }
+    .book{
+        display: inline-block;
+        position: absolute;
+        border: 0px solid;
+        width: 16%;
+        left: 73%;
+        top: 1.5%;
+        height: 5%;
+        margin: 0px auto;
+
+    }
+    .btn2{
+        background-color: darkorange;
+        color: white;
+        border: 2px solid black;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 21px;
+    }
+    .btn2:hover{
+        background-color: orange;
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!--left1 box for logo-->
+        <div class="left1">
+            <img src="images/logo3.png" alt="">
+        </div>
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="atus.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <!--right box for quote-->
+        <div class="right">
+            <p>"A recipe has no soul. You, as the cook, must bring soul to the recipe."</p>
+        </div>
+        <!--bottom1 box for social media handle-->
+        <div class="bottm1">
+            <ul class="sobar">
+                <li><a href="https://www.facebook.com/ayush.pandey.75641?mibextid=ZbWKwL">
+                    <img src="icons/facebook.png" alt="">
+                </a></li>
+                <li><a href="https://www.instagram.com/arnav._.oo1/--">
+                    <img src="icons/instagram.png" alt="">
+                </a></li>
+                <li><a href="https://twitter.com/arnav13057176?t=hcx4zd9GaxJkGzaMa8wtcg&s=03">
+                    <img src="icons/twitter.png" alt="">
+                </a></li>
+            </ul>
+
+        </div>
+        <!--Bottom2 for feedback-->
+        <div class="feed">
+            <button class="btn" onclick="window.location.href='https://forms.gle/iPfxH2sVPy1QTQGk9';">Feedback</button>
+        </div>
+        <!--search bar-->
+        <div class="search">
+            <input type="text" placeholder="Search..">
+        </div>
+        <!--Bottom3 for tabke booking-->
+        <div class="book">
+            <button class="btn2" onclick="window.location.href='https://forms.gle/WVzpzjdHo6JG2Lug8';">Book a Table</button>
+        </div>
+        <div class="discount">
+            <p>Use code "@bawarchis" and get upto 20% OFF</p>
+            <img src="images/soffer.jpg" alt="">
+        </div>
+    </header>
+    
+</body>
+</html>
